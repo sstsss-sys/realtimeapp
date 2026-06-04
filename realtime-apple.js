@@ -9,6 +9,7 @@ const historyPath =
 
 const allHistoryPath =
   "./apple-music-all-history.json";
+  const usHistoryPath = "./us-history.json";
 
 function getHistory() {
 
@@ -74,6 +75,36 @@ function getAllHistory() {
 
 }
 
+function getUsHistory() {
+
+  try {
+
+    if (
+      fs.existsSync(
+        usHistoryPath
+      )
+    ) {
+
+      return JSON.parse(
+        fs.readFileSync(
+          usHistoryPath,
+          "utf8"
+        )
+      );
+
+    }
+
+    return [];
+
+  } catch {
+
+    return [];
+
+  }
+
+}
+
+
 function isJiminSong(
   artist
 ) {
@@ -93,17 +124,130 @@ function isJiminSong(
       headless: true
     });
 
-  const history =
-    getHistory();
+ const history =
+  getHistory();
 
-  const allHistory =
-    getAllHistory();
+const usHistory =
+  getUsHistory();
 
-  const previousEntries =
-    history.entries || [];
+const allHistory =
+  getAllHistory();
+
+const previousEntries =
+  history.entries || [];
+
 
   const allEntries =
     [];
+
+const page =
+  await browser.newPage();
+
+await page.goto(
+  "https://music.apple.com/us/charts/songs",
+  {
+    waitUntil:
+      "networkidle"
+  }
+);
+
+await page.waitForTimeout(
+  5000
+);
+
+const scrollable =
+  await page.locator(
+    "#scrollable-page"
+  );
+
+for (
+  let i = 0;
+  i < 20;
+  i++
+) {
+
+  await scrollable.evaluate(
+    el => {
+      el.scrollBy(
+        0,
+        5000
+      );
+    }
+  );
+
+  await page.waitForTimeout(
+    500
+  );
+
+}
+
+const usTop10 =
+  await page.evaluate(
+    () => {
+
+      return [
+        ...document.querySelectorAll(
+          'a[href*="/song/"]'
+        )
+      ]
+      .slice(0, 10)
+      .map(a => {
+
+        const card =
+          a.closest(
+            '[aria-label]'
+          ) ||
+          a.parentElement;
+
+        const aria =
+          card?.getAttribute(
+            "aria-label"
+          ) || "";
+
+        return aria;
+
+      });
+
+    }
+  );
+
+await page.close();
+const oldUs =
+  JSON.stringify(
+    usHistory
+  );
+
+const newUs =
+  JSON.stringify(
+    usTop10
+  );
+
+if (
+  oldUs === newUs
+) {
+
+  console.log(
+    "🟰 US chart not updated"
+  );
+
+  await browser.close();
+
+  return;
+
+}
+
+console.log(
+  "📈 US chart updated"
+);
+
+fs.writeFileSync(
+  usHistoryPath,
+  JSON.stringify(
+    usTop10,
+    null,
+    2
+  )
+);
 
   const BATCH_SIZE =
     10;
