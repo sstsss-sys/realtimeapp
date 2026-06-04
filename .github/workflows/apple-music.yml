@@ -3,6 +3,10 @@ name: Apple Music Realtime
 on:
   workflow_dispatch:
 
+  repository_dispatch:
+    types:
+      - run-apple-music
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
