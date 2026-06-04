@@ -106,7 +106,7 @@ function isJiminSong(
     [];
 
   const BATCH_SIZE =
-    5;
+    10;
 
   for (
     let i = 0;
