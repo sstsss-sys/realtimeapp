@@ -181,7 +181,7 @@ for (
 
 }
 
-const usTop10 =
+const usTop200 =
   await page.evaluate(
     () => {
 
@@ -190,7 +190,7 @@ const usTop10 =
           'a[href*="/song/"]'
         )
       ]
-      .slice(0, 10)
+      .slice(0, 200)
       .map(a => {
 
         const card =
@@ -219,7 +219,7 @@ const oldUs =
 
 const newUs =
   JSON.stringify(
-    usTop10
+    usTop200
   );
 
 if (
@@ -243,7 +243,7 @@ console.log(
 fs.writeFileSync(
   usHistoryPath,
   JSON.stringify(
-    usTop10,
+    usTop200,
     null,
     2
   )
