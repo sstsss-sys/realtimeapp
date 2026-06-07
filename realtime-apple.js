@@ -104,18 +104,12 @@ function getUsHistory() {
 
 }
 
-
-function isJiminSong(
-  artist
-) {
-
-  return artist
-    .toLowerCase()
-    .includes(
-      "jimin"
-    );
-
+function isJiminSong(song) {
+  const textToCheck = (song.rawAria || "").toLowerCase();
+  return textToCheck.includes("jimin");
 }
+
+
 
 (async () => {
 
@@ -181,35 +175,17 @@ for (
 
 }
 
-const usTop200 =
-  await page.evaluate(
-    () => {
+// GANTI BLOK usTop200 DENGAN INI:
+const usTop200 = await page.evaluate(() => {
+  return [...document.querySelectorAll('a[href*="/song/"]')]
+    .slice(0, 200)
+    .map(a => {
+      const card = a.closest('[aria-label]') || a.parentElement;
+      return card?.getAttribute("aria-label") || "";
+    });
+});
 
-      return [
-        ...document.querySelectorAll(
-          'a[href*="/song/"]'
-        )
-      ]
-      .slice(0, 200)
-      .map(a => {
 
-        const card =
-          a.closest(
-            '[aria-label]'
-          ) ||
-          a.parentElement;
-
-        const aria =
-          card?.getAttribute(
-            "aria-label"
-          ) || "";
-
-        return aria;
-
-      });
-
-    }
-  );
 
 await page.close();
 const oldUs =
@@ -337,131 +313,27 @@ fs.writeFileSync(
 
               }
 
-              const songs =
-                await page.evaluate(
-                  countryName => {
+            // GANTI BLOK page.evaluate NEGARA DENGAN INI:
+const songs = await page.evaluate((countryName) => {
+  const elements = Array.from(document.querySelectorAll('a[href*="/song/"]'));
+ 
+  return elements.map(a => {
+    const card = a.closest('[aria-label]') || a.parentElement;
+    const aria = card?.getAttribute("aria-label") || "";
+   
+    return {
+      country: countryName,
+      title: a.textContent?.trim() || "",
+      rawAria: aria, // <-- HARUS PAKAI rawAria
+      songLink: a.href
+    };
+  });
+}, country.country);
 
-                    const seen =
-                      new Set();
-
-                    return [
-                      ...document.querySelectorAll(
-                        'a[href*="/song/"]'
-                      )
-                    ]
-                    .map(a => {
-
-                      const card =
-                        a.closest(
-                          '[aria-label]'
-                        ) ||
-                        a.parentElement;
-
-                      const aria =
-                        card?.getAttribute(
-                          "aria-label"
-                        ) || "";
-
-                      let clean =
-                        aria.replace(
-                          /^Explicit,\s*/,
-                          ""
-                        );
-
-                      const parts =
-                        clean.split(
-                          ","
-                        );
-
-                      const title =
-                        parts.shift()
-                          ?.trim() || "";
-
-                      const artist =
-                        parts.join(
-                          ","
-                        ).trim();
-
-                      const rank =
-                        parseInt(
-                          card
-                            ?.querySelector(
-                              '[data-testid*="rank"]'
-                            )
-                            ?.textContent
-                            ?.trim()
-                        ) || null;
-
-                      const image =
-                        card
-                          ?.querySelector(
-                            "picture source"
-                          )
-                          ?.getAttribute(
-                            "srcset"
-                          )
-                          ?.split(
-                            ","
-                          )[0]
-                          ?.split(
-                            " "
-                          )[0]
-                          || "";
-
-                      return {
-
-                        country:
-                          countryName,
-
-                        rank,
-
-                        title,
-
-                        artist,
-
-                        image,
-
-                        songLink:
-                          a.href
-
-                      };
-
-                    })
-.filter(item => {
-
-                      if (
-                        seen.has(
-                          item.songLink
-                        )
-                      ) {
-                        return false;
-                      }
-
-                      seen.add(
-                        item.songLink
-                      );
-
-                      return true;
-
-                    })
-                    .sort(
-                      (a, b) =>
-                        a.rank -
-                        b.rank
-                    );
-
-                  },
-                  country.country
-                );
 
               await page.close();
 
-              return songs.filter(
-                song =>
-                  isJiminSong(
-                    song.artist
-                  )
-              );
+             return songs.filter(song => isJiminSong(song));
 
             } catch (err) {
 
