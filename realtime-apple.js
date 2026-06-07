@@ -313,23 +313,30 @@ fs.writeFileSync(
 
               }
 
-            // GANTI BLOK page.evaluate NEGARA DENGAN INI:
+// Ganti blok page.evaluate ini agar data rank & image terbawa:
 const songs = await page.evaluate((countryName) => {
   const elements = Array.from(document.querySelectorAll('a[href*="/song/"]'));
  
-  return elements.map(a => {
+  return elements.map((a, index) => {
     const card = a.closest('[aria-label]') || a.parentElement;
     const aria = card?.getAttribute("aria-label") || "";
+    
+    // Ambil rank dari elemen data-testid
+    const rank = parseInt(card?.querySelector('[data-testid*="rank"]')?.textContent?.trim()) || (index + 1);
+    
+    // Ambil image
+    const image = card?.querySelector("picture source")?.getAttribute("srcset")?.split(",")[0]?.split(" ")[0] || "";
    
     return {
       country: countryName,
       title: a.textContent?.trim() || "",
-      rawAria: aria, // <-- HARUS PAKAI rawAria
+      rawAria: aria, 
+      rank: rank,
+      image: image,
       songLink: a.href
     };
   });
 }, country.country);
-
 
               await page.close();
 
