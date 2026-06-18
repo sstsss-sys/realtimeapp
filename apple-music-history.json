@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T15:11:03.534Z",
+  "lastUpdated": "2026-06-18T17:12:41.869Z",
   "entries": [
     {
       "country": "Myanmar",
@@ -44,9 +44,9 @@
     {
       "country": "Myanmar",
       "rank": 6,
-      "previousRank": 7,
-      "change": "+1",
-      "status": "up",
+      "previousRank": 6,
+      "change": "—",
+      "status": "stable",
       "title": "Like Crazy",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/like-crazy/1676947244"
@@ -54,9 +54,9 @@
     {
       "country": "Myanmar",
       "rank": 9,
-      "previousRank": 10,
-      "change": "+1",
-      "status": "up",
+      "previousRank": 9,
+      "change": "—",
+      "status": "stable",
       "title": "Rebirth (Intro)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/rebirth-intro/1751773079"
@@ -64,9 +64,9 @@
     {
       "country": "Belarus",
       "rank": 10,
-      "previousRank": 5,
-      "change": "-5",
-      "status": "down",
+      "previousRank": 10,
+      "change": "—",
+      "status": "stable",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/be-mine/1751773088"
@@ -74,9 +74,9 @@
     {
       "country": "Myanmar",
       "rank": 12,
-      "previousRank": 11,
-      "change": "-1",
-      "status": "down",
+      "previousRank": 12,
+      "change": "—",
+      "status": "stable",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/be-mine/1751773088"
@@ -84,9 +84,9 @@
     {
       "country": "Myanmar",
       "rank": 14,
-      "previousRank": 12,
-      "change": "-2",
-      "status": "down",
+      "previousRank": 14,
+      "change": "—",
+      "status": "stable",
       "title": "Interlude : Showtime",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/interlude-showtime/1751773082"
@@ -94,9 +94,9 @@
     {
       "country": "Belarus",
       "rank": 14,
-      "previousRank": 13,
-      "change": "-1",
-      "status": "down",
+      "previousRank": 14,
+      "change": "—",
+      "status": "stable",
       "title": "Rebirth (Intro)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/rebirth-intro/1751773079"
@@ -104,9 +104,9 @@
     {
       "country": "Myanmar",
       "rank": 16,
-      "previousRank": 14,
-      "change": "-2",
-      "status": "down",
+      "previousRank": 16,
+      "change": "—",
+      "status": "stable",
       "title": "Slow Dance (feat. Sofia Carson)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/slow-dance-feat-sofia-carson/1751773086"
@@ -114,9 +114,9 @@
     {
       "country": "Uzbekistan",
       "rank": 17,
-      "previousRank": 19,
-      "change": "+2",
-      "status": "up",
+      "previousRank": 17,
+      "change": "—",
+      "status": "stable",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/uz/song/who/1751773093"
@@ -124,9 +124,9 @@
     {
       "country": "Myanmar",
       "rank": 30,
-      "previousRank": 28,
-      "change": "-2",
-      "status": "down",
+      "previousRank": 30,
+      "change": "—",
+      "status": "stable",
       "title": "SWIM with Jimin (Slow Jam R&B Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/09/7a/37097a78-e09c-c313-7507-e7a55053c7fe/823375056676_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/swim-with-jimin-slow-jam-r-b-remix/1888226687"
@@ -134,9 +134,9 @@
     {
       "country": "Myanmar",
       "rank": 31,
-      "previousRank": 29,
-      "change": "-2",
-      "status": "down",
+      "previousRank": 31,
+      "change": "—",
+      "status": "stable",
       "title": "Be Mine (English Version)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/2f/ab/e42fab67-51c7-6f8f-4482-846e1a949d3a/198704079474_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/be-mine-english-version/1759236956"
@@ -144,9 +144,9 @@
     {
       "country": "Myanmar",
       "rank": 40,
-      "previousRank": 36,
-      "change": "-4",
-      "status": "down",
+      "previousRank": 40,
+      "change": "—",
+      "status": "stable",
       "title": "Who (Instrumental)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/who-instrumental/1757558458"
@@ -154,202 +154,182 @@
     {
       "country": "Belarus",
       "rank": 47,
-      "previousRank": 44,
-      "change": "-3",
-      "status": "down",
+      "previousRank": 47,
+      "change": "—",
+      "status": "stable",
       "title": "Smeraldo Garden Marching Band",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/16/4b/e1164b5b-d6bf-b22d-d5b2-746f85771f93/198704027765_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/smeraldo-garden-marching-band/1752552299"
     },
     {
       "country": "Belarus",
-      "rank": 54,
-      "previousRank": 54,
-      "change": "—",
-      "status": "stable",
-      "title": "Like Crazy",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/like-crazy/1676947244"
-    },
-    {
-      "country": "Belarus",
-      "rank": 56,
-      "previousRank": 56,
-      "change": "—",
-      "status": "stable",
-      "title": "Closer Than This",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8b/db/48/8bdb480c-86f8-7aeb-5897-41fd76bac031/196922764974_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/closer-than-this/1721409260"
-    },
-    {
-      "country": "Belarus",
-      "rank": 57,
+      "rank": 55,
       "previousRank": 57,
-      "change": "—",
-      "status": "stable",
+      "change": "+2",
+      "status": "up",
       "title": "Interlude : Showtime",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/interlude-showtime/1751773082"
     },
     {
       "country": "Myanmar",
-      "rank": 59,
-      "previousRank": 42,
-      "change": "-17",
+      "rank": 56,
+      "previousRank": 40,
+      "change": "-16",
+      "status": "down",
+      "title": "Who (Instrumental)",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/who-instrumental/1757558458"
+    },
+    {
+      "country": "Belarus",
+      "rank": 57,
+      "previousRank": 56,
+      "change": "-1",
+      "status": "down",
+      "title": "Closer Than This",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8b/db/48/8bdb480c-86f8-7aeb-5897-41fd76bac031/196922764974_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/by/song/closer-than-this/1721409260"
+    },
+    {
+      "country": "Belarus",
+      "rank": 61,
+      "previousRank": 54,
+      "change": "-7",
+      "status": "down",
+      "title": "Like Crazy",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/by/song/like-crazy/1676947244"
+    },
+    {
+      "country": "Myanmar",
+      "rank": 67,
+      "previousRank": 59,
+      "change": "-8",
       "status": "down",
       "title": "Who (Beautiful Mind Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/who-beautiful-mind-remix/1757553927"
     },
     {
-      "country": "Myanmar",
-      "rank": 68,
-      "previousRank": 68,
-      "change": "—",
-      "status": "stable",
-      "title": "Who (Acoustic Remix)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/who-acoustic-remix/1757558459"
-    },
-    {
-      "country": "Uzbekistan",
-      "rank": 70,
-      "previousRank": 70,
-      "change": "—",
-      "status": "stable",
-      "title": "Be Mine",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/uz/song/be-mine/1751773088"
-    },
-    {
       "country": "Belarus",
-      "rank": 76,
+      "rank": 70,
       "previousRank": 76,
-      "change": "—",
-      "status": "stable",
+      "change": "+6",
+      "status": "up",
       "title": "Who (Rock Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/who-rock-remix/1757558460"
     },
     {
+      "country": "Belarus",
+      "rank": 75,
+      "previousRank": 84,
+      "change": "+9",
+      "status": "up",
+      "title": "Slow Dance (feat. Sofia Carson)",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/by/song/slow-dance-feat-sofia-carson/1751773086"
+    },
+    {
       "country": "Myanmar",
-      "rank": 80,
+      "rank": 78,
+      "previousRank": 68,
+      "change": "-10",
+      "status": "down",
+      "title": "Who (Acoustic Remix)",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/who-acoustic-remix/1757558459"
+    },
+    {
+      "country": "Myanmar",
+      "rank": 90,
       "previousRank": 80,
-      "change": "—",
-      "status": "stable",
+      "change": "-10",
+      "status": "down",
       "title": "Who (Funky Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/who-funky-remix/1757553926"
     },
     {
       "country": "Myanmar",
-      "rank": 82,
+      "rank": 92,
       "previousRank": 82,
-      "change": "—",
-      "status": "stable",
+      "change": "-10",
+      "status": "down",
       "title": "Who (Rock Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/who-rock-remix/1757558460"
     },
     {
       "country": "Myanmar",
-      "rank": 84,
+      "rank": 96,
       "previousRank": 84,
-      "change": "—",
-      "status": "stable",
+      "change": "-12",
+      "status": "down",
       "title": "Who (Shibuyakei Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/who-shibuyakei-remix/1757553588"
     },
     {
-      "country": "Belarus",
-      "rank": 84,
-      "previousRank": 84,
-      "change": "—",
-      "status": "stable",
-      "title": "Slow Dance (feat. Sofia Carson)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/slow-dance-feat-sofia-carson/1751773086"
-    },
-    {
-      "country": "Argentina",
-      "rank": 101,
-      "previousRank": 101,
-      "change": "—",
-      "status": "stable",
-      "title": "Who",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/ar/song/who/1751773093"
-    },
-    {
       "country": "Bahrain",
-      "rank": 125,
+      "rank": 99,
       "previousRank": 125,
-      "change": "—",
-      "status": "stable",
+      "change": "+26",
+      "status": "up",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/bh/song/who/1751773093"
     },
     {
-      "country": "Myanmar",
-      "rank": 129,
-      "previousRank": 129,
-      "change": "—",
-      "status": "stable",
-      "title": "Set Me Free, Pt. 2",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/98/31/e298314f-7b47-6f96-31bf-25e90c4d1a3a/196922396663_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/set-me-free-pt-2/1675962543"
+      "country": "Uzbekistan",
+      "rank": 111,
+      "previousRank": 70,
+      "change": "-41",
+      "status": "down",
+      "title": "Be Mine",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/uz/song/be-mine/1751773088"
     },
     {
-      "country": "Myanmar",
-      "rank": 148,
-      "previousRank": 148,
-      "change": "—",
-      "status": "stable",
-      "title": "Like Crazy (English Version)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/like-crazy-english-version/1676947499"
-    },
-    {
-      "country": "Myanmar",
-      "rank": 165,
-      "previousRank": 165,
-      "change": "—",
-      "status": "stable",
-      "title": "Alone",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/alone/1676947245"
+      "country": "Argentina",
+      "rank": 124,
+      "previousRank": 101,
+      "change": "-23",
+      "status": "down",
+      "title": "Who",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/ar/song/who/1751773093"
     },
     {
       "country": "Belarus",
-      "rank": 170,
-      "previousRank": 170,
-      "change": "—",
-      "status": "stable",
-      "title": "Interlude : Dive",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/interlude-dive/1676947242"
-    },
-    {
-      "country": "Belarus",
-      "rank": 180,
+      "rank": 135,
       "previousRank": 180,
-      "change": "—",
-      "status": "stable",
+      "change": "+45",
+      "status": "up",
       "title": "Who (Acoustic Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/who-acoustic-remix/1757558459"
     },
     {
       "country": "Myanmar",
-      "rank": 185,
-      "previousRank": 185,
-      "change": "—",
-      "status": "stable",
-      "title": "Angel Pt. 1 (feat. Kodak Black, NLE Choppa, JVKE & Muni Long)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/c1/96/88c196a7-6155-1a5f-aed8-a1f7caa40e70/23SYMIM04378.rgb.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/angel-pt-1-feat-kodak-black-nle-choppa-jvke-muni-long/1685731980"
+      "rank": 161,
+      "previousRank": 129,
+      "change": "-32",
+      "status": "down",
+      "title": "Set Me Free, Pt. 2",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/98/31/e298314f-7b47-6f96-31bf-25e90c4d1a3a/196922396663_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/set-me-free-pt-2/1675962543"
+    },
+    {
+      "country": "Belarus",
+      "rank": 187,
+      "previousRank": null,
+      "change": "RE",
+      "status": "RE",
+      "title": "Who (Instrumental)",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/by/song/who-instrumental/1757558458"
     }
   ]
 }
