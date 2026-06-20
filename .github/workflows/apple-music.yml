@@ -30,7 +30,7 @@ jobs:
         working-directory: apple-music-realtime-private
         run: npx playwright install chromium --with-deps
 
-      - name: Copy history files to private repo
+      - name: Sync history to private
         run: |
           cp -f us-history.json apple-music-realtime-private/
           cp -f apple-music-history.json apple-music-realtime-private/
@@ -40,23 +40,30 @@ jobs:
         working-directory: apple-music-realtime-private
         run: node realtime-apple.js
 
-      - name: Copy generated files
-        run: |
-          cp -f apple-music-realtime-private/apple-music-realtime.json .
-          cp -f apple-music-realtime-private/us-history.json .
-          cp -f apple-music-realtime-private/apple-music-history.json .
-          cp -f apple-music-realtime-private/apple-music-all-history.json .
-
-      - name: Commit updated files
+      - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add apple-music-realtime.json
-          git add us-history.json
-          git add apple-music-history.json
-          git add apple-music-all-history.json
-
-          # Cek perubahan konten, kalau nggak ada perubahan, nggak usah commit/push
-          git diff --staged --quiet || git commit -m "update apple music data"
-          git diff --quiet || git push
+          
+          # Cek apakah file hasil scrape benar-benar ada sebelum di-copy
+          if [ -f "apple-music-realtime-private/apple-music-realtime.json" ]; then
+            echo "File ditemukan, melakukan sinkronisasi..."
+            cp -f apple-music-realtime-private/apple-music-realtime.json .
+            cp -f apple-music-realtime-private/us-history.json .
+            cp -f apple-music-realtime-private/apple-music-history.json .
+            cp -f apple-music-realtime-private/apple-music-all-history.json .
+            
+            git add apple-music-realtime.json us-history.json apple-music-history.json apple-music-all-history.json
+            
+            # Rem Darurat: Cek apakah isi konten benar-benar berubah
+            if git diff --cached --quiet; then
+              echo "Isi file sama, tidak ada yang perlu di-push."
+            else
+              git commit -m "Auto Update: Scrape Success"
+              git push
+            fi
+          else
+            echo "Tidak ada file baru (Scraper tidak melakukan update). Selesai dengan sukses (Hijau)."
+            exit 0
+          fi
+          
