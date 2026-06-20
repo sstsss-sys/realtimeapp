@@ -6,23 +6,16 @@ on:
 jobs:
   update-apple:
     runs-on: ubuntu-latest
-    # PROTEKSI: Memastikan tidak ada antrean job yang saling bertabrakan
-    concurrency:
-      group: apple-music-sync
-      cancel-in-progress: true
     permissions:
       contents: write
 
     steps:
-      - name: Checkout Etalase (Public)
+      - name: Checkout public repo
         uses: actions/checkout@v4
 
-      - name: Checkout Dapur (Private)
-        uses: actions/checkout@v4
-        with:
-          repository: sstsss-sys/apple-music-realtime-private
-          path: apple-music-realtime-private
-          token: ${{ secrets.PAT_REALTIME }}
+      - name: Clone private repo
+        run: |
+          git clone https://x-access-token:${{ secrets.PAT_REALTIME }}@github.com/sstsss-sys/apple-music-realtime-private.git
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -37,29 +30,33 @@ jobs:
         working-directory: apple-music-realtime-private
         run: npx playwright install chromium --with-deps
 
-      # LANGKAH KRUSIAL: Pindahkan history dari repo publik ke repo privat sebelum skrip jalan
-      - name: Sync History to Dapur
+      - name: Copy history files to private repo
         run: |
-          cp -f us-history.json apple-music-realtime-private/ || echo "us-history.json not found"
-          cp -f apple-music-history.json apple-music-realtime-private/ || echo "apple-music-history.json not found"
+          cp -f us-history.json apple-music-realtime-private/
+          cp -f apple-music-history.json apple-music-realtime-private/
+          cp -f apple-music-all-history.json apple-music-realtime-private/
 
-      # Jalankan skrip. Jika oldUs === newUs, skrip akan melakukan return dan berhenti.
       - name: Run Scraper
         working-directory: apple-music-realtime-private
         run: node realtime-apple.js
 
-      # Pindahkan kembali hasil update ke repo publik
-      - name: Move Results back to Etalase
+      - name: Copy generated files
         run: |
           cp -f apple-music-realtime-private/apple-music-realtime.json .
           cp -f apple-music-realtime-private/us-history.json .
           cp -f apple-music-realtime-private/apple-music-history.json .
+          cp -f apple-music-realtime-private/apple-music-all-history.json .
 
-      # Commit dan Push hanya jika terjadi perubahan pada file JSON
-      - name: Commit and Push
+      - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add *.json
-          git diff --staged --quiet || (git commit -m "Update: Data scraped via cron-job" && git push)
-          
+
+          git add apple-music-realtime.json
+          git add us-history.json
+          git add apple-music-history.json
+          git add apple-music-all-history.json
+
+          # Cek perubahan konten, kalau nggak ada perubahan, nggak usah commit/push
+          git diff --staged --quiet || git commit -m "update apple music data"
+          git diff --quiet || git push
