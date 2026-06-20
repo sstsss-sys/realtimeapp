@@ -6,6 +6,10 @@ on:
 jobs:
   update-apple:
     runs-on: ubuntu-latest
+    # PROTEKSI: Memastikan tidak ada antrean job yang saling bertabrakan
+    concurrency:
+      group: apple-music-sync
+      cancel-in-progress: true
     permissions:
       contents: write
 
@@ -33,26 +37,29 @@ jobs:
         working-directory: apple-music-realtime-private
         run: npx playwright install chromium --with-deps
 
-      - name: Sync Required History Files
+      # LANGKAH KRUSIAL: Pindahkan history dari repo publik ke repo privat sebelum skrip jalan
+      - name: Sync History to Dapur
         run: |
-          # Memastikan file acuan history benar-benar ada di dalam folder kerja
-          cp -f apple-music-albums-history.json apple-music-realtime-private/ || true
-          cp -f apple-music-albums-all-history.json apple-music-realtime-private/ || true
-          cp -f us-albums-history.json apple-music-realtime-private/ || true
+          cp -f us-history.json apple-music-realtime-private/ || echo "us-history.json not found"
+          cp -f apple-music-history.json apple-music-realtime-private/ || echo "apple-music-history.json not found"
 
+      # Jalankan skrip. Jika oldUs === newUs, skrip akan melakukan return dan berhenti.
       - name: Run Scraper
         working-directory: apple-music-realtime-private
         run: node realtime-apple.js
 
-      - name: Move results back to Etalase
+      # Pindahkan kembali hasil update ke repo publik
+      - name: Move Results back to Etalase
         run: |
-          # Memastikan semua hasil olahan dan history terbaru kembali ke Etalase
-          cp -f apple-music-realtime-private/*.json .
+          cp -f apple-music-realtime-private/apple-music-realtime.json .
+          cp -f apple-music-realtime-private/us-history.json .
+          cp -f apple-music-realtime-private/apple-music-history.json .
 
-      - name: Commit and Push to Etalase
+      # Commit dan Push hanya jika terjadi perubahan pada file JSON
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add *.json
-          git diff --staged --quiet || git commit -m "Update: Sync & Scrape Apple Music"
-          git push
+          git diff --staged --quiet || (git commit -m "Update: Data scraped via cron-job" && git push)
+          
