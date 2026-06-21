@@ -48,17 +48,19 @@ jobs:
           if [ -f "apple-music-realtime-private/apple-music-realtime.json" ]; then
             echo "File ditemukan, melakukan sinkronisasi..."
 
-            cp -f apple-music-realtime-private/apple-music-realtime.json new.json
-            cp -f apple-music-realtime.json old.json
+            # Compare hanya ranking chart
+            jq '[.entries[] | {country, title, rank}]' \
+              apple-music-realtime-private/apple-music-realtime.json > new-chart.json
 
-            # Abaikan updatedDate saat compare
-            jq 'del(.updatedDate)' new.json > new-clean.json
-            jq 'del(.updatedDate)' old.json > old-clean.json
+            jq '[.entries[] | {country, title, rank}]' \
+              apple-music-realtime.json > old-chart.json
 
-            if cmp -s new-clean.json old-clean.json; then
-              echo "Chart tidak berubah. Skip commit."
+            if cmp -s new-chart.json old-chart.json; then
+              echo "Ranking chart tidak berubah. Skip commit."
               exit 0
             fi
+
+            echo "Ranking chart berubah. Commit..."
 
             cp -f apple-music-realtime-private/apple-music-realtime.json .
             cp -f apple-music-realtime-private/us-history.json .
