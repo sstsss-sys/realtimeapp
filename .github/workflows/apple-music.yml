@@ -1,78 +1,79 @@
 name: Update Apple Music Realtime
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-update-apple:
-runs-on: ubuntu-latest
-permissions:
-contents: write
+  update-apple:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-steps:
-  - name: Checkout public repo
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout public repo
+        uses: actions/checkout@v4
 
-  - name: Clone private repo
-    run: |
-      git clone https://x-access-token:${{ secrets.PAT_REALTIME }}@github.com/sstsss-sys/apple-music-realtime-private.git
+      - name: Clone private repo
+        run: |
+          git clone https://x-access-token:${{ secrets.PAT_REALTIME }}@github.com/sstsss-sys/apple-music-realtime-private.git
 
-  - name: Setup Node
-    uses: actions/setup-node@v4
-    with:
-      node-version: 20
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-  - name: Install dependencies
-    working-directory: apple-music-realtime-private
-    run: npm install
+      - name: Install dependencies
+        working-directory: apple-music-realtime-private
+        run: npm install
 
-  - name: Install Playwright
-    working-directory: apple-music-realtime-private
-    run: npx playwright install chromium --with-deps
+      - name: Install Playwright
+        working-directory: apple-music-realtime-private
+        run: npx playwright install chromium --with-deps
 
-  - name: Sync history to private
-    run: |
-      cp -f us-history.json apple-music-realtime-private/
-      cp -f apple-music-history.json apple-music-realtime-private/
-      cp -f apple-music-all-history.json apple-music-realtime-private/
+      - name: Sync history to private
+        run: |
+          cp -f us-history.json apple-music-realtime-private/
+          cp -f apple-music-history.json apple-music-realtime-private/
+          cp -f apple-music-all-history.json apple-music-realtime-private/
 
-  - name: Run Scraper
-    working-directory: apple-music-realtime-private
-    run: node realtime-apple.js
+      - name: Run Scraper
+        working-directory: apple-music-realtime-private
+        run: node realtime-apple.js
 
-  - name: Commit if changed
-    run: |
-      git config user.name "github-actions[bot]"
-      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      if [ -f "apple-music-realtime-private/apple-music-realtime.json" ]; then
-        echo "File ditemukan, melakukan sinkronisasi..."
+          if [ -f "apple-music-realtime-private/apple-music-realtime.json" ]; then
+            echo "File ditemukan, melakukan sinkronisasi..."
 
-        cp -f apple-music-realtime-private/apple-music-realtime.json new.json
-        cp -f apple-music-realtime.json old.json
+            cp -f apple-music-realtime-private/apple-music-realtime.json new.json
+            cp -f apple-music-realtime.json old.json
 
-        jq 'del(.updatedDate)' new.json > new-clean.json
-        jq 'del(.updatedDate)' old.json > old-clean.json
+            # Abaikan updatedDate saat compare
+            jq 'del(.updatedDate)' new.json > new-clean.json
+            jq 'del(.updatedDate)' old.json > old-clean.json
 
-        if cmp -s new-clean.json old-clean.json; then
-          echo "Chart tidak berubah. Skip commit."
-          exit 0
-        fi
+            if cmp -s new-clean.json old-clean.json; then
+              echo "Chart tidak berubah. Skip commit."
+              exit 0
+            fi
 
-        cp -f apple-music-realtime-private/apple-music-realtime.json .
-        cp -f apple-music-realtime-private/us-history.json .
-        cp -f apple-music-realtime-private/apple-music-history.json .
-        cp -f apple-music-realtime-private/apple-music-all-history.json .
+            cp -f apple-music-realtime-private/apple-music-realtime.json .
+            cp -f apple-music-realtime-private/us-history.json .
+            cp -f apple-music-realtime-private/apple-music-history.json .
+            cp -f apple-music-realtime-private/apple-music-all-history.json .
 
-        git add apple-music-realtime.json
-        git add us-history.json
-        git add apple-music-history.json
-        git add apple-music-all-history.json
+            git add apple-music-realtime.json
+            git add us-history.json
+            git add apple-music-history.json
+            git add apple-music-all-history.json
 
-        git commit -m "Auto Update: Scrape Success"
-        git push
+            git commit -m "Auto Update: Scrape Success"
+            git push
 
-      else
-        echo "Tidak ada file baru (Scraper tidak melakukan update). Selesai dengan sukses (Hijau)."
-        exit 0
-      fi
+          else
+            echo "Tidak ada file baru (Scraper tidak melakukan update). Selesai dengan sukses (Hijau)."
+            exit 0
+          fi
