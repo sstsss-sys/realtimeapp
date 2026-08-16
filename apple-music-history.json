@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-16T22:10:13.142Z",
+  "lastUpdated": "2026-08-16T23:09:34.290Z",
   "entries": [
     {
       "country": "Belarus",
       "rank": 12,
-      "previousRank": 11,
-      "change": "-1",
-      "status": "down",
+      "previousRank": 12,
+      "change": "—",
+      "status": "stable",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/who/1751773093"
@@ -14,18 +14,18 @@
     {
       "country": "Belarus",
       "rank": 22,
-      "previousRank": 15,
-      "change": "-7",
-      "status": "down",
+      "previousRank": 22,
+      "change": "—",
+      "status": "stable",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/be-mine/1751773088"
     },
     {
       "country": "Belarus",
-      "rank": 55,
-      "previousRank": 47,
-      "change": "-8",
+      "rank": 58,
+      "previousRank": 55,
+      "change": "-3",
       "status": "down",
       "title": "Rebirth (Intro)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
@@ -33,20 +33,20 @@
     },
     {
       "country": "Belarus",
-      "rank": 82,
+      "rank": 83,
       "previousRank": 82,
-      "change": "—",
-      "status": "stable",
+      "change": "-1",
+      "status": "down",
       "title": "Slow Dance (feat. Sofia Carson)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/slow-dance-feat-sofia-carson/1751773086"
     },
     {
       "country": "Belarus",
-      "rank": 101,
+      "rank": 102,
       "previousRank": 101,
-      "change": "—",
-      "status": "stable",
+      "change": "-1",
+      "status": "down",
       "title": "Interlude : Showtime",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/interlude-showtime/1751773082"
@@ -63,23 +63,13 @@
     },
     {
       "country": "Belarus",
-      "rank": 115,
+      "rank": 113,
       "previousRank": 115,
-      "change": "—",
-      "status": "stable",
+      "change": "+2",
+      "status": "up",
       "title": "Smeraldo Garden Marching Band",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/16/4b/e1164b5b-d6bf-b22d-d5b2-746f85771f93/198704027765_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/smeraldo-garden-marching-band/1752552299"
-    },
-    {
-      "country": "Belarus",
-      "rank": 171,
-      "previousRank": 171,
-      "change": "—",
-      "status": "stable",
-      "title": "Like Crazy",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/like-crazy/1676947244"
     }
   ]
 }
