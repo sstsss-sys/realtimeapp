@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T18:10:39.408Z",
+  "lastUpdated": "2026-08-20T20:10:18.090Z",
   "entries": [
     {
       "country": "Belarus",
@@ -23,53 +23,33 @@
     },
     {
       "country": "Belarus",
-      "rank": 55,
+      "rank": 65,
       "previousRank": 55,
-      "change": "—",
-      "status": "stable",
+      "change": "-10",
+      "status": "down",
       "title": "Rebirth (Intro)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/rebirth-intro/1751773079"
     },
     {
       "country": "Belarus",
-      "rank": 76,
+      "rank": 81,
       "previousRank": 76,
-      "change": "—",
-      "status": "stable",
+      "change": "-5",
+      "status": "down",
       "title": "Like Crazy",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/like-crazy/1676947244"
     },
     {
       "country": "Belarus",
-      "rank": 101,
-      "previousRank": null,
-      "change": "RE",
-      "status": "RE",
+      "rank": 125,
+      "previousRank": 101,
+      "change": "-24",
+      "status": "down",
       "title": "Smeraldo Garden Marching Band",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/16/4b/e1164b5b-d6bf-b22d-d5b2-746f85771f93/198704027765_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/smeraldo-garden-marching-band/1752552299"
-    },
-    {
-      "country": "Belarus",
-      "rank": 178,
-      "previousRank": null,
-      "change": "RE",
-      "status": "RE",
-      "title": "Who (Rock Remix)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/who-rock-remix/1757558460"
-    },
-    {
-      "country": "Belarus",
-      "rank": 185,
-      "previousRank": null,
-      "change": "RE",
-      "status": "RE",
-      "title": "Slow Dance (feat. Sofia Carson)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/slow-dance-feat-sofia-carson/1751773086"
     }
   ]
 }
