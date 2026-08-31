@@ -1,46 +1,46 @@
 {
-  "updatedDate": "2026-08-31T05:10:31.340Z",
+  "updatedDate": "2026-08-31T08:10:16.500Z",
   "totalEntries": 4,
   "entries": [
     {
       "country": "Belarus",
-      "rank": 63,
-      "previousRank": 68,
-      "change": "+5",
-      "status": "up",
+      "rank": 66,
+      "previousRank": 63,
+      "change": "-3",
+      "status": "down",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/who/1751773093"
     },
     {
-      "country": "Myanmar",
-      "rank": 82,
-      "previousRank": 56,
-      "change": "-26",
-      "status": "down",
-      "title": "Who",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/who/1751773093"
-    },
-    {
       "country": "Belarus",
-      "rank": 104,
-      "previousRank": 118,
-      "change": "+14",
-      "status": "up",
+      "rank": 113,
+      "previousRank": 104,
+      "change": "-9",
+      "status": "down",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/be-mine/1751773088"
     },
     {
       "country": "Belarus",
-      "rank": 109,
-      "previousRank": 133,
-      "change": "+24",
-      "status": "up",
+      "rank": 123,
+      "previousRank": 109,
+      "change": "-14",
+      "status": "down",
       "title": "Rebirth (Intro)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/rebirth-intro/1751773079"
+    },
+    {
+      "country": "Myanmar",
+      "rank": 178,
+      "previousRank": 82,
+      "change": "-96",
+      "status": "down",
+      "title": "Who",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/who/1751773093"
     }
   ]
 }
