@@ -1,13 +1,13 @@
 {
-  "updatedDate": "2026-09-04T12:10:43.282Z",
-  "totalEntries": 10,
+  "updatedDate": "2026-09-04T14:10:25.098Z",
+  "totalEntries": 9,
   "entries": [
     {
       "country": "Myanmar",
       "rank": 5,
-      "previousRank": 2,
-      "change": "-3",
-      "status": "down",
+      "previousRank": 5,
+      "change": "—",
+      "status": "stable",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/who/1751773093"
@@ -15,58 +15,38 @@
     {
       "country": "Belarus",
       "rank": 40,
-      "previousRank": 41,
-      "change": "+1",
-      "status": "up",
+      "previousRank": 40,
+      "change": "—",
+      "status": "stable",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/who/1751773093"
     },
     {
       "country": "Belarus",
-      "rank": 72,
-      "previousRank": 59,
-      "change": "-13",
-      "status": "down",
+      "rank": 67,
+      "previousRank": 72,
+      "change": "+5",
+      "status": "up",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/be-mine/1751773088"
     },
     {
       "country": "Belarus",
-      "rank": 94,
+      "rank": 95,
       "previousRank": 94,
-      "change": "—",
-      "status": "stable",
+      "change": "-1",
+      "status": "down",
       "title": "Rebirth (Intro)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/rebirth-intro/1751773079"
     },
     {
-      "country": "Myanmar",
-      "rank": 97,
-      "previousRank": 52,
-      "change": "-45",
-      "status": "down",
-      "title": "Smeraldo Garden Marching Band",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/16/4b/e1164b5b-d6bf-b22d-d5b2-746f85771f93/198704027765_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/smeraldo-garden-marching-band/1752552299"
-    },
-    {
-      "country": "Myanmar",
-      "rank": 98,
-      "previousRank": 53,
-      "change": "-45",
-      "status": "down",
-      "title": "Closer Than This",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8b/db/48/8bdb480c-86f8-7aeb-5897-41fd76bac031/196922764974_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/closer-than-this/1721409260"
-    },
-    {
       "country": "Libya",
-      "rank": 104,
-      "previousRank": 79,
-      "change": "-25",
+      "rank": 117,
+      "previousRank": 104,
+      "change": "-13",
       "status": "down",
       "title": "Slow Dance (feat. Sofia Carson)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
@@ -74,33 +54,43 @@
     },
     {
       "country": "Myanmar",
-      "rank": 119,
-      "previousRank": 61,
-      "change": "-58",
+      "rank": 150,
+      "previousRank": 97,
+      "change": "-53",
       "status": "down",
-      "title": "Like Crazy",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/like-crazy/1676947244"
+      "title": "Smeraldo Garden Marching Band",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/16/4b/e1164b5b-d6bf-b22d-d5b2-746f85771f93/198704027765_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/smeraldo-garden-marching-band/1752552299"
+    },
+    {
+      "country": "Myanmar",
+      "rank": 151,
+      "previousRank": 98,
+      "change": "-53",
+      "status": "down",
+      "title": "Closer Than This",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8b/db/48/8bdb480c-86f8-7aeb-5897-41fd76bac031/196922764974_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/closer-than-this/1721409260"
     },
     {
       "country": "Belarus",
-      "rank": 164,
-      "previousRank": 136,
-      "change": "-28",
-      "status": "down",
+      "rank": 162,
+      "previousRank": 164,
+      "change": "+2",
+      "status": "up",
       "title": "Smeraldo Garden Marching Band",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/16/4b/e1164b5b-d6bf-b22d-d5b2-746f85771f93/198704027765_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/smeraldo-garden-marching-band/1752552299"
     },
     {
-      "country": "Belarus",
-      "rank": 182,
-      "previousRank": null,
-      "change": "RE",
-      "status": "RE",
+      "country": "Myanmar",
+      "rank": 194,
+      "previousRank": 119,
+      "change": "-75",
+      "status": "down",
       "title": "Like Crazy",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/like-crazy/1676947244"
+      "songLink": "https://music.apple.com/mm/song/like-crazy/1676947244"
     }
   ]
 }
