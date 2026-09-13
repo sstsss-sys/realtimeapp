@@ -1,11 +1,11 @@
 {
-  "updatedDate": "2026-09-13T03:11:16.962Z",
+  "updatedDate": "2026-09-13T06:10:49.321Z",
   "totalEntries": 3,
   "entries": [
     {
       "country": "Belarus",
-      "rank": 9,
-      "previousRank": 13,
+      "rank": 5,
+      "previousRank": 9,
       "change": "+4",
       "status": "up",
       "title": "Who",
@@ -14,9 +14,9 @@
     },
     {
       "country": "Belarus",
-      "rank": 44,
-      "previousRank": 49,
-      "change": "+5",
+      "rank": 31,
+      "previousRank": 44,
+      "change": "+13",
       "status": "up",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
@@ -24,9 +24,9 @@
     },
     {
       "country": "Belarus",
-      "rank": 162,
-      "previousRank": 165,
-      "change": "+3",
+      "rank": 136,
+      "previousRank": 162,
+      "change": "+26",
       "status": "up",
       "title": "Like Crazy",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
