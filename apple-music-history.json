@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T23:11:13.501Z",
+  "lastUpdated": "2026-10-04T00:08:32.449Z",
   "entries": [
     {
       "country": "Myanmar",
@@ -13,10 +13,10 @@
     },
     {
       "country": "Myanmar",
-      "rank": 2,
+      "rank": 3,
       "previousRank": 2,
-      "change": "—",
-      "status": "stable",
+      "change": "-1",
+      "status": "down",
       "title": "Closer Than This",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8b/db/48/8bdb480c-86f8-7aeb-5897-41fd76bac031/196922764974_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/closer-than-this/1721409260"
@@ -134,22 +134,22 @@
     {
       "country": "Myanmar",
       "rank": 19,
-      "previousRank": 19,
-      "change": "—",
-      "status": "stable",
-      "title": "Who (Funky Remix)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/who-funky-remix/1757553926"
+      "previousRank": 20,
+      "change": "+1",
+      "status": "up",
+      "title": "Who (Instrumental)",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/who-instrumental/1757558458"
     },
     {
       "country": "Myanmar",
       "rank": 20,
-      "previousRank": 20,
-      "change": "—",
-      "status": "stable",
-      "title": "Who (Instrumental)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/03/6b/25036b82-3a20-1b25-4a76-10d60dd994ed/198704057328_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/who-instrumental/1757558458"
+      "previousRank": 19,
+      "change": "-1",
+      "status": "down",
+      "title": "Who (Funky Remix)",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/who-funky-remix/1757553926"
     },
     {
       "country": "Myanmar",
@@ -163,40 +163,40 @@
     },
     {
       "country": "Myanmar",
-      "rank": 28,
-      "previousRank": 28,
-      "change": "—",
-      "status": "stable",
-      "title": "Face-off",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/mm/song/face-off/1676947237"
-    },
-    {
-      "country": "Myanmar",
-      "rank": 32,
+      "rank": 29,
       "previousRank": 32,
-      "change": "—",
-      "status": "stable",
+      "change": "+3",
+      "status": "up",
       "title": "Like Crazy (English Version)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/like-crazy-english-version/1676947499"
     },
     {
       "country": "Myanmar",
-      "rank": 42,
+      "rank": 30,
+      "previousRank": 28,
+      "change": "-2",
+      "status": "down",
+      "title": "Face-off",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mm/song/face-off/1676947237"
+    },
+    {
+      "country": "Myanmar",
+      "rank": 41,
       "previousRank": 42,
-      "change": "—",
-      "status": "stable",
+      "change": "+1",
+      "status": "up",
       "title": "Set Me Free, Pt. 2",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/98/31/e298314f-7b47-6f96-31bf-25e90c4d1a3a/196922396663_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/set-me-free-pt-2/1675962543"
     },
     {
       "country": "Myanmar",
-      "rank": 44,
+      "rank": 43,
       "previousRank": 44,
-      "change": "—",
-      "status": "stable",
+      "change": "+1",
+      "status": "up",
       "title": "Interlude : Dive",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/interlude-dive/1676947242"
@@ -204,9 +204,9 @@
     {
       "country": "Myanmar",
       "rank": 52,
-      "previousRank": 64,
-      "change": "+12",
-      "status": "up",
+      "previousRank": 52,
+      "change": "—",
+      "status": "stable",
       "title": "Promise",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fc/fa/75/fcfa757f-b76b-c42c-f733-3a2c43714bf6/193483453781_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/promise/1674610366"
@@ -214,9 +214,9 @@
     {
       "country": "Myanmar",
       "rank": 57,
-      "previousRank": 55,
-      "change": "-2",
-      "status": "down",
+      "previousRank": 57,
+      "change": "—",
+      "status": "stable",
       "title": "Alone",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/alone/1676947245"
@@ -224,9 +224,9 @@
     {
       "country": "Myanmar",
       "rank": 82,
-      "previousRank": 86,
-      "change": "+4",
-      "status": "up",
+      "previousRank": 82,
+      "change": "—",
+      "status": "stable",
       "title": "Like Crazy (Deep House Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/8c/99/708c9954-5a06-4bfc-b175-55be657158f6/196922419508_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/like-crazy-deep-house-remix/1678752436"
@@ -234,9 +234,9 @@
     {
       "country": "Myanmar",
       "rank": 91,
-      "previousRank": 89,
-      "change": "-2",
-      "status": "down",
+      "previousRank": 91,
+      "change": "—",
+      "status": "stable",
       "title": "Like Crazy (Instrumental)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/8c/99/708c9954-5a06-4bfc-b175-55be657158f6/196922419508_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/like-crazy-instrumental/1678752454"
@@ -244,9 +244,9 @@
     {
       "country": "Myanmar",
       "rank": 96,
-      "previousRank": 106,
-      "change": "+10",
-      "status": "up",
+      "previousRank": 96,
+      "change": "—",
+      "status": "stable",
       "title": "Like Crazy (UK Garage Remix)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/8c/99/708c9954-5a06-4bfc-b175-55be657158f6/196922419508_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/like-crazy-uk-garage-remix/1678752452"
@@ -254,9 +254,9 @@
     {
       "country": "Myanmar",
       "rank": 140,
-      "previousRank": 122,
-      "change": "-18",
-      "status": "down",
+      "previousRank": 140,
+      "change": "—",
+      "status": "stable",
       "title": "Angel Pt. 1 (feat. Kodak Black, NLE Choppa, JVKE & Muni Long)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/c1/96/88c196a7-6155-1a5f-aed8-a1f7caa40e70/23SYMIM04378.rgb.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/angel-pt-1-feat-kodak-black-nle-choppa-jvke-muni-long/1685731980"
@@ -264,9 +264,9 @@
     {
       "country": "Myanmar",
       "rank": 149,
-      "previousRank": 135,
-      "change": "-14",
-      "status": "down",
+      "previousRank": 149,
+      "change": "—",
+      "status": "stable",
       "title": "Angel Pt. 1 (feat. Kodak Black, NLE Choppa, JVKE & Muni Long) [Sped Up]",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a2/1a/ce/a21ace70-455c-9637-f43d-bdece78c7aca/23SYMIM04665.rgb.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/angel-pt-1-feat-kodak-black-nle-choppa-jvke-muni-long-sped-up/1688436876"
@@ -274,9 +274,9 @@
     {
       "country": "Myanmar",
       "rank": 153,
-      "previousRank": 140,
-      "change": "-13",
-      "status": "down",
+      "previousRank": 153,
+      "change": "—",
+      "status": "stable",
       "title": "Angel Pt. 2 (feat. JVKE, Charlie Puth & Muni Long)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/db/ba/b2/dbbab2ae-0a95-5039-0a26-e4fee2e2c7d8/23SYMIM05166.rgb.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/angel-pt-2-feat-jvke-charlie-puth-muni-long/1691915810"
@@ -284,9 +284,9 @@
     {
       "country": "Myanmar",
       "rank": 155,
-      "previousRank": 154,
-      "change": "-1",
-      "status": "down",
+      "previousRank": 155,
+      "change": "—",
+      "status": "stable",
       "title": "Angel (feat. Mark Ralph, Muni Long, JVKE & NLE Choppa) [Anniversary Edition]",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/16/df/4116df88-dfc9-7a8f-3d06-bf5b89900acf/24SYMIM12108.rgb.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/angel-feat-mark-ralph-muni-long-jvke-nle-choppa-anniversary/1745759866"
@@ -294,9 +294,9 @@
     {
       "country": "Myanmar",
       "rank": 164,
-      "previousRank": 182,
-      "change": "+18",
-      "status": "up",
+      "previousRank": 164,
+      "change": "—",
+      "status": "stable",
       "title": "Christmas Love",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/71/c2/6c71c267-1f21-03ae-69da-491d83f826f4/195497916955_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/christmas-love/1674610249"
@@ -304,9 +304,9 @@
     {
       "country": "Myanmar",
       "rank": 170,
-      "previousRank": 155,
-      "change": "-15",
-      "status": "down",
+      "previousRank": 170,
+      "change": "—",
+      "status": "stable",
       "title": "With You",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d0/be/5c/d0be5c21-600f-c640-b6d5-f6c6e3d1b52d/888272099966_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/mm/song/with-you/1625848551"
