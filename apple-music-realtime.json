@@ -1,12 +1,12 @@
 {
-  "updatedDate": "2026-10-16T10:11:06.443Z",
+  "updatedDate": "2026-10-16T13:10:42.982Z",
   "totalEntries": 3,
   "entries": [
     {
       "country": "Belarus",
-      "rank": 14,
-      "previousRank": 34,
-      "change": "+20",
+      "rank": 7,
+      "previousRank": 14,
+      "change": "+7",
       "status": "up",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
@@ -14,9 +14,9 @@
     },
     {
       "country": "Belarus",
-      "rank": 41,
-      "previousRank": 59,
-      "change": "+18",
+      "rank": 38,
+      "previousRank": 41,
+      "change": "+3",
       "status": "up",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
@@ -24,9 +24,9 @@
     },
     {
       "country": "Belarus",
-      "rank": 72,
-      "previousRank": 96,
-      "change": "+24",
+      "rank": 61,
+      "previousRank": 72,
+      "change": "+11",
       "status": "up",
       "title": "Rebirth (Intro)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
