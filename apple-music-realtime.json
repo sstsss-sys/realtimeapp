@@ -1,13 +1,13 @@
 {
-  "updatedDate": "2026-10-24T23:09:43.945Z",
+  "updatedDate": "2026-10-25T02:10:40.015Z",
   "totalEntries": 1,
   "entries": [
     {
       "country": "Belarus",
-      "rank": 113,
-      "previousRank": 121,
-      "change": "+8",
-      "status": "up",
+      "rank": 114,
+      "previousRank": 113,
+      "change": "-1",
+      "status": "down",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/who/1757553584"
