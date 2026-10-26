@@ -1,16 +1,26 @@
 {
-  "updatedDate": "2026-10-26T10:10:28.936Z",
-  "totalEntries": 1,
+  "updatedDate": "2026-10-26T13:18:47.338Z",
+  "totalEntries": 2,
   "entries": [
     {
       "country": "Belarus",
-      "rank": 156,
-      "previousRank": 102,
-      "change": "-54",
-      "status": "down",
+      "rank": 91,
+      "previousRank": 156,
+      "change": "+65",
+      "status": "up",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/who/1757553584"
+    },
+    {
+      "country": "Maldives",
+      "rank": 103,
+      "previousRank": null,
+      "change": "NEW",
+      "status": "NEW",
+      "title": "Who",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/mv/song/who/1757553584"
     }
   ]
 }
