@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-29T20:11:53.315Z",
+  "lastUpdated": "2026-10-29T23:08:26.058Z",
   "entries": [
     {
       "country": "Belarus",
-      "rank": 69,
-      "previousRank": 58,
-      "change": "-11",
+      "rank": 78,
+      "previousRank": 69,
+      "change": "-9",
       "status": "down",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/30/c9/2130c9ee-eea1-8502-b912-185368a987f3/198704057335_Cover.jpg/40x40bb.webp",
@@ -13,19 +13,19 @@
     },
     {
       "country": "Bhutan",
-      "rank": 142,
-      "previousRank": null,
-      "change": "RE",
-      "status": "RE",
+      "rank": 156,
+      "previousRank": 142,
+      "change": "-14",
+      "status": "down",
       "title": "Like Crazy",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/a1/a5/41a1a5cb-22ac-0cef-a48c-5d00b1727320/196922330674_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/bt/song/like-crazy/1676947244"
     },
     {
       "country": "Belarus",
-      "rank": 159,
-      "previousRank": 122,
-      "change": "-37",
+      "rank": 167,
+      "previousRank": 159,
+      "change": "-8",
       "status": "down",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
