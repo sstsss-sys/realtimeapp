@@ -1,6 +1,6 @@
 {
-  "updatedDate": "2026-11-05T01:08:53.471Z",
-  "totalEntries": 3,
+  "updatedDate": "2026-11-05T05:09:04.234Z",
+  "totalEntries": 2,
   "entries": [
     {
       "country": "Belarus",
@@ -14,23 +14,13 @@
     },
     {
       "country": "Belarus",
-      "rank": 120,
-      "previousRank": 101,
+      "rank": 139,
+      "previousRank": 120,
       "change": "-19",
       "status": "down",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/be-mine/1751773088"
-    },
-    {
-      "country": "Belarus",
-      "rank": 200,
-      "previousRank": 197,
-      "change": "-3",
-      "status": "down",
-      "title": "Rebirth (Intro)",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
-      "songLink": "https://music.apple.com/by/song/rebirth-intro/1751773079"
     }
   ]
 }
