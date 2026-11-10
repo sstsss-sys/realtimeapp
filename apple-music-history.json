@@ -1,12 +1,22 @@
 {
-  "lastUpdated": "2026-11-10T16:08:16.742Z",
+  "lastUpdated": "2026-11-10T18:08:12.327Z",
   "entries": [
     {
       "country": "Belarus",
+      "rank": 17,
+      "previousRank": null,
+      "change": "RE",
+      "status": "RE",
+      "title": "Who",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
+      "songLink": "https://music.apple.com/by/song/who/1751773093"
+    },
+    {
+      "country": "Belarus",
       "rank": 98,
-      "previousRank": 180,
-      "change": "+82",
-      "status": "up",
+      "previousRank": 98,
+      "change": "—",
+      "status": "stable",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/be-mine/1751773088"
@@ -14,9 +24,9 @@
     {
       "country": "Belarus",
       "rank": 118,
-      "previousRank": null,
-      "change": "RE",
-      "status": "RE",
+      "previousRank": 118,
+      "change": "—",
+      "status": "stable",
       "title": "Rebirth (Intro)",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/rebirth-intro/1751773079"
@@ -24,9 +34,9 @@
     {
       "country": "Belarus",
       "rank": 197,
-      "previousRank": null,
-      "change": "RE",
-      "status": "RE",
+      "previousRank": 197,
+      "change": "—",
+      "status": "stable",
       "title": "Smeraldo Garden Marching Band",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/16/4b/e1164b5b-d6bf-b22d-d5b2-746f85771f93/198704027765_Cover.jpg/40x40bb.webp",
       "songLink": "https://music.apple.com/by/song/smeraldo-garden-marching-band/1752552299"
