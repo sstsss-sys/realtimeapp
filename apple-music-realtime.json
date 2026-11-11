@@ -1,12 +1,12 @@
 {
-  "updatedDate": "2026-11-11T20:08:15.213Z",
+  "updatedDate": "2026-11-11T23:09:18.786Z",
   "totalEntries": 2,
   "entries": [
     {
       "country": "Belarus",
-      "rank": 93,
-      "previousRank": 98,
-      "change": "+5",
+      "rank": 85,
+      "previousRank": 93,
+      "change": "+8",
       "status": "up",
       "title": "Who",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
@@ -14,9 +14,9 @@
     },
     {
       "country": "Belarus",
-      "rank": 170,
-      "previousRank": 155,
-      "change": "-15",
+      "rank": 195,
+      "previousRank": 170,
+      "change": "-25",
       "status": "down",
       "title": "Be Mine",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/40x40bb.webp",
